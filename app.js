@@ -9,6 +9,7 @@ fetch(apiURL)
       btn.setAttribute("id", pais.CountryCode);
       btn.setAttribute("type", "button");
       btn.setAttribute("value", pais.Country);
+      btn.setAttribute("class", "btn btn-light");
 
       let salto = document.createElement("br");
       document.getElementById("display-countries").appendChild(btn);

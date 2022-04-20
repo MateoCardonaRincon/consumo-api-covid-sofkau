@@ -12,12 +12,15 @@
 
 <body>
     <div class="container">
-        <h1>Información sobre Covid-19</h1>
-        <div class="row">
-            <input type="text" id="input-country" placeholder="Buscar por país">
-            <button id="search">Buscar</button>
+        <div class="row mt-3">
+            <h1>Información sobre Covid-19</h1>
         </div>
-        <div class="row">
+        <div class="row mt-3">
+            <div class="col-6"><input class="form-control" type="text" id="input-country" placeholder="Buscar por país">
+            </div>
+            <div class="col-6"><button class="btn btn-primary" id="search">Buscar</button></div>
+        </div>
+        <div class="row mt-3">
             <div id="display-countries" class="col-3">
             </div>
             <div id="display-table" class="col-9">
