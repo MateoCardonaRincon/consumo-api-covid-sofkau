@@ -1,0 +1,22 @@
+Practica para concretar: tiempo max 40 min
+
+Apoyandose de los datos de la aPI:
+https://api.covid19api.com/summary
+
+haga una aplicacion Javascript que permita
+tener 2 opciones de consulta:
+1. que se pueda cargar en una lista seleccionable
+todas las ciudades. y que cuando se toque alguna
+de las ciudades me cargue en una tabla el resto de datos.
+
+2. solicitar desde una caja de texto 
+escribir la ciudad a buscar
+y me arroje en una tabla los siguientes datos:
+- codigo de ciudad
+- nuevos casos confirmados de COVID
+- Muertes en total de esa ciudad
+- total de recuperados de esa ciudad
+
+en el caso que la ciudad no este en la API debe
+arrojar un mensaje informando que no hay datos
+de esta ciudad.
