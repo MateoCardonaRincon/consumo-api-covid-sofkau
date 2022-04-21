@@ -10,7 +10,7 @@ const buscarInfoPais = async (apiURL) => {
         (c) => c.Country.toLowerCase() === input.value.toLowerCase()
       )[0];
 
-      let theader = `<tr><th>Código</th><th>País</th><th>Muertes</th>
+      let theader = `<tr class="thead-dark"><th>Código</th><th>País</th><th>Muertes</th>
                           <th>Recuperados</th></tr>`;
 
       let tbody = `<tr><td>${thisCountry.CountryCode}</td>
